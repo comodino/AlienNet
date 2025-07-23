@@ -1,0 +1,25 @@
+# Deep Learning stack
+torch==2.2.2
+torchvision
+
+# NumPy compatibile
+numpy<2
+
+# Modelli
+efficientnet_pytorch
+
+# Adversarial & visual
+grad-cam
+
+# Data handling & metrics
+scikit-learn
+pandas
+tqdm
+matplotlib
+seaborn
+opencv-python
+albumentations
+
+# Notebook environment
+jupyterlab
+ipywidgets

@@ -1,0 +1,12 @@
+services:
+  aliennet:
+    platform: linux/amd64         # 👈 forzatura della piattaforma
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    restart: unless-stopped
