@@ -1,6 +1,6 @@
 services:
   aliennet:
-    platform: linux/amd64         # 👈 forzatura della piattaforma
+    platform: linux/amd64
     build:
       context: .
       dockerfile: docker/Dockerfile
